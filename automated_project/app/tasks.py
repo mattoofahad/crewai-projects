@@ -17,5 +17,5 @@ class TasksClass:
     RESOURCE_ALLOCATION = Task(
         config=TASKS_CONFIG["resource_allocation"],
         agent=AgentsClass.RESOURCE_ALLOCATION_AGENT,
-        output_pydantic=ProjectPlan,  # This is the structured output we want
+        output_pydantic=ProjectPlan,
     )

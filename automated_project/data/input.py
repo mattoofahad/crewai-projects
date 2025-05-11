@@ -21,7 +21,6 @@ project_requirements = """
 - Include a testimonials section to showcase customer feedback and build trust
 """
 
-# Format the dictionary as Markdown for a better display in Jupyter Lab
 formatted_output = f"""
 **Project Type:** {project}
 
@@ -35,7 +34,6 @@ formatted_output = f"""
 {project_requirements}
 """
 
-# The given Python dictionary
 INPUTS = {
     "project_type": project,
     "project_objectives": project_objectives,
